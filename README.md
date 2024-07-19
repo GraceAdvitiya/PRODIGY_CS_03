@@ -27,7 +27,7 @@ The password strength checker program works on the following:
    length = len(password)
    score = 0
    ```
-2.  Reads common passwords from the file and compares it with the users password.
+2. Reads common passwords from the file and compares it with the users password.
    ```
    with open('common.txt', 'r') as f:
     common = f.read().splitlines()
@@ -69,12 +69,9 @@ The password strength checker program works on the following:
     else:
     print(f"The password is strong! Score: {score}/10")
    
-  ```
-
+   ```
 ## Output
 
 ![Screenshot (472)](https://github.com/user-attachments/assets/dbaf4249-a1fe-476f-8384-f4fdad0945ce)
-
-
 
 Happy coding!
